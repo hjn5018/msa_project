@@ -1,0 +1,10 @@
+rootProject.name = 'flash-commerce'
+
+// 이번 단계에서 활성화할 서브 모듈
+include 'common'
+include 'product-service'
+
+// Phase 2~5에서 순차적으로 주석을 해제할 모듈들
+// include 'order-service'
+// include 'payment-service'
+// include 'api-gateway'

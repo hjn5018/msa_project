@@ -153,7 +153,7 @@ gantt
 ### [Phase 1] 프로젝트 베이스라인 & 상품 서비스 구축
 > **목표**: Gradle 멀티 모듈 세팅, 로컬 DB 환경 구축, Spring Boot 기본기(JPA, RestController) 습득
 
-- [ ] **Task 1.1**: 루트 Gradle 멀티 모듈 구성 (`settings.gradle`, `build.gradle`, `.gitignore`)
+- [x] **Task 1.1**: 루트 Gradle 멀티 모듈 구성 (`settings.gradle`, `build.gradle`, `.gitignore`)
 - [ ] **Task 1.2**: `common` 모듈 생성 (공통 응답 래퍼 `ApiResponse`, 전역 예외 처리 클래스)
 - [ ] **Task 1.3**: `docker-compose.yml` 작성 (MySQL 3개 컨테이너 or 1개 인스턴스 내 3개 스키마 분리)
 - [ ] **Task 1.4**: `product-service` 생성 및 Spring Data JPA 설정
